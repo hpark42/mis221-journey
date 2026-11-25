@@ -58,7 +58,7 @@ button{font:inherit;color:inherit}
 </head>
 <body>
 <div id="viewport"><div id="stage" class="desktop">
-<img class="bg" src="img/campus-photo.webp" alt="">
+<img class="bg" src="campus-photo.webp" alt="">
 <div id="leaves" aria-hidden="true" style="position:absolute;inset:0;overflow:hidden;pointer-events:none"></div>
 <div id="screen"></div>
 </div></div>
@@ -80,8 +80,7 @@ var ROLES = {
     stats: [{ k: 'grade', label: 'Course grade', short: 'Grade', goal: 97, min: 80 }, { k: 'strikes', label: 'Integrity strikes', short: 'Strikes', max: 3 }] }
 };
 var ORDER = ['instr', 'ta', 'student'];
-function sprite(k, mood) { return 'img/' + k + '-' + mood + '.webp'; }
-
+function sprite(k, mood) { return k + '-' + mood + '.webp'; }
 var L = {
   phone: { W: 390, H: 844, menuPos: [-6, 100, 206], routeW: 190, routeH: 300, routeImgH: 285, tagSize: 12, sprite: 'left:0;top:150px;width:390px;height:585px', ask: -92, outcome: -70,
     titleBox: 'top:44px;left:0;right:0;align-items:center;text-align:center', t1: 11, t2: 26, t3: 56, t4: 13, lineupTop: 224,
