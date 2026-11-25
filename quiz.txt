@@ -8,5 +8,5 @@ What number does a sequence index start at?#-1#2#1#0#d
 What is the difference between a getter and a setter?#A getter updates a private variable's value, while a setter retrieves it#A getter retrieves a private variable's value, while a setter updates or modifies it#A getter creates a new object, while a setter deletes an existing object#A getter is used for public variables, while a setter is used for private variables#b
 What is the difference between "return" and "print" in a function?#They are identical#Print sends a value back to the caller; return shows text#return sends a value back to the caller; print only displays text#Return only works in loops#c
 What does an inheritance let a class do?#Reuse attributes and methods from a parent class#Delete its parent class#Run faster#Avoid using __init__#a
-What is the purpose of try/excpet?#To loop forever#To handle errors without crashing the program#To declare variables#To sort data#b
+What is the purpose of try/except?#To loop forever#To handle errors without crashing the program#To declare variables#To sort data#b
 What does this produce? [x * 2 for x in range(3)]#[0, 2, 4]#[2, 4, 6]#[0, 1, 2]#[0, 2, 4, 6]#a
