@@ -73,7 +73,7 @@ def display_instr(dean, students, colleagues):
 
 def display_ta(trust, rapport):
     print("\n=== TEACHING ASSISTANT - WESSICA JEAVER ===\n")
-    print("WIN: Get promoted to LEAD TA(Instructor trust 65+, student rapport 60+)")
+    print("WIN: Get promoted to INSTRUCTOR (Instructor trust 65+, student rapport 60+)")
     print("LOSE: Get FIRED (trust or rapport hits 0)")
     print(f"\nInstructor trust: {trust}\t\tStudent rapport: {rapport}\n")
 
@@ -271,7 +271,7 @@ def ta_game():
         print("\nYou've been FIRED! GAME OVER")
 
     elif trust >= 65 and rapport >= 60:
-        print("\nYou've been promoted to LEAD TA! VICTORY")
+        print("\nYou've been promoted to INSTRUCTOR! VICTORY")
 
     else:
         print("\nGAME OVER! You didn't reach your promotion goals.")
